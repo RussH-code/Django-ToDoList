@@ -9,5 +9,6 @@ On this app you can have your setup your own personal account, create your own T
   
 ### You must register and login before you can use the app.
 
+![Sample Website](https://github.com/RussH-code/Django-ToDoList/blob/main/first.PNG)
 
   
