@@ -11,4 +11,12 @@ On this app you can have your setup your own personal account, create your own T
 
 ![Sample Website](https://github.com/RussH-code/Django-ToDoList/blob/main/first.PNG)
 
+![Sample Website](https://github.com/RussH-code/Django-ToDoList/blob/main/second.PNG)
+
+![Sample Website](https://github.com/RussH-code/Django-ToDoList/blob/main/third.PNG)
+
+![Sample Website](https://github.com/RussH-code/Django-ToDoList/blob/main/fourth.PNG)
+
+![Sample Website](https://github.com/RussH-code/Django-ToDoList/blob/main/fifth.PNG)
+
   
