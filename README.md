@@ -30,3 +30,4 @@ On this app you can have your setup your own personal account, create your own T
 ## References:
 ----
 1. TechWithTim Django Tutorial <a href="https://www.youtube.com/watch?v=sm1mokevMWk">https://www.youtube.com/watch?v=sm1mokevMWk</a>
+2. Corey Schafer Python Django Tutorial: Full-Featured Web App <a href="https://www.youtube.com/watch?v=3aVqWaLjqS4">https://www.youtube.com/watch?v=3aVqWaLjqS4</a>
