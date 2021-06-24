@@ -27,4 +27,6 @@ On this app you can have your setup your own personal account, create your own T
 ---
 ![Sample Website](https://github.com/RussH-code/Django-ToDoList/blob/main/images/fifth.PNG)
 
-  
+## References:
+----
+1. TechWithTim Django Tutorial <a href="https://www.youtube.com/watch?v=sm1mokevMWk">https://www.youtube.com/watch?v=sm1mokevMWk</a>
