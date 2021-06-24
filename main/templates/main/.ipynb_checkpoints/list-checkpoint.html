@@ -1,0 +1,60 @@
+{% extends "main/base.html" %}
+{% block title %}
+View To-Do List
+{% endblock %}
+
+{% block content %}
+<h2>{{ls}}</h2>
+<hr>
+<h5 class="mb-4">
+    Here you can update the name of the items, add new items or change their completion status.
+</h5>
+<small class="text-muted">Please note that item names must be longer than 2 characters.<small>
+
+<form method="POST", action="#">
+    {% csrf_token %}
+
+        {% for item in ls.item_set.all %}
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <div class="input-group-text">
+                    <input type="checkbox", value="clicked", name="c{{item.id}}">
+                </div>
+            </div>
+            <input type="text", value="{{item.text}}", class="form-control", name="d{{item.id}}">
+            <div class="input-group-append">
+                {% if item.complete == True %}
+                <input readonly type="text", name="e{{item.id}}", class="btn btn-success" onclick="completeFunction(this)" value="Completed"></input>
+                {% else %}
+                <input readonly type="text", name="e{{item.id}}", class="btn btn-warning" onclick="completeFunction(this)" value="Incomplete"></input>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+
+    <div class="input-group mb-3">
+        <input type="text", name="new">
+        <div class="input-group-append">
+            <button type="submit", name="newItem", value="newItem" class="btn btn-outline-info">Add Item</button>
+        </div>
+    </div>
+
+
+    <button type="submit", name="save", value="save" class="btn btn-outline-info">Save</button>
+    <button type="submit", name="delete", value="delete" class="btn btn-outline-info ml-2">Delete</button>
+</form>
+
+<script>
+function completeFunction(element) {
+    if(element.value == "Completed"){
+        element.value = "Incomplete";
+        element.classList.remove("btn-success");
+        element.classList.add("btn-warning");
+    } else {
+        element.value = "Completed";
+        element.classList.remove("btn-warning");
+        element.classList.add("btn-success");
+    }
+}
+</script>
+{% endblock %}

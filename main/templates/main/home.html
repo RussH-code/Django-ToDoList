@@ -1,0 +1,21 @@
+{% extends 'main/base.html' %}
+{% block content %}
+<h1 class="mt-3">
+    Make your own custom To-Do List now!
+</h1>
+
+{% if user.is_authenticated %}
+    <p class="mt-3">
+        You are now logged in as {{ user.username }}.
+    </p>
+
+    <p class="mt-3">
+        Use the sidebar to create, view and edit your lists.
+    </p>
+{% else %}
+    <p class="mt-3">
+        <a href="/login">Sign in</a>
+        to continue
+    </p>
+{% endif %}
+{% endblock %}
