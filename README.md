@@ -9,14 +9,14 @@ On this app you can have your setup your own personal account, create your own T
   
 ### You must register and login before you can use the app.
 
-![Sample Website](https://github.com/RussH-code/Django-ToDoList/blob/main/first.PNG)
+![Sample Website](https://github.com/RussH-code/Django-ToDoList/blob/main/images/first.PNG)
 
-![Sample Website](https://github.com/RussH-code/Django-ToDoList/blob/main/second.PNG)
+![Sample Website](https://github.com/RussH-code/Django-ToDoList/blob/main/images/second.PNG)
 
-![Sample Website](https://github.com/RussH-code/Django-ToDoList/blob/main/third.PNG)
+![Sample Website](https://github.com/RussH-code/Django-ToDoList/blob/main/images/third.PNG)
 
-![Sample Website](https://github.com/RussH-code/Django-ToDoList/blob/main/fourth.PNG)
+![Sample Website](https://github.com/RussH-code/Django-ToDoList/blob/main/images/fourth.PNG)
 
-![Sample Website](https://github.com/RussH-code/Django-ToDoList/blob/main/fifth.PNG)
+![Sample Website](https://github.com/RussH-code/Django-ToDoList/blob/main/images/fifth.PNG)
 
   
